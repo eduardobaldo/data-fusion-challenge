@@ -1,0 +1,18 @@
+.env
+__pycache__/
+*.py[cod]
+.venv/
+node_modules/
+dist/
+knime/.metadata/
+knime/Example Workflows/
+knime/**/.artifacts/
+knime/**/port_*/
+knime/**/.knimeLock
+knime/**/.savedWithData
+data/analytics.duckdb*
+data/football.sqlite*
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep

@@ -1,0 +1,9 @@
+.venue-pagination{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:9px 2px 3px;border-top:1px solid #e7e9e1;margin-top:3px}
+.pagination-summary{font:8px 'DM Mono',monospace;color:#899287;white-space:nowrap}
+.pagination-controls{display:flex;align-items:center;gap:3px}
+.page-number,.page-arrow{width:27px;height:27px;border:1px solid transparent;border-radius:5px;background:transparent;color:#596756;display:grid;place-items:center;font:9px 'DM Mono',monospace;cursor:pointer}
+.page-number:hover,.page-arrow:hover:not(:disabled){background:#edf2df;border-color:#dce7c8}
+.page-number.active{background:#244d37;color:#fff;border-color:#244d37}
+.page-arrow:disabled{opacity:.35;cursor:default}
+.page-ellipsis{width:18px;text-align:center;color:#929a8f;font-size:10px}
+@media(max-width:480px){.venue-pagination{align-items:flex-start;flex-direction:column}.pagination-controls{align-self:center}.page-number,.page-arrow{width:31px;height:31px}}

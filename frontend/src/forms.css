@@ -1,0 +1,9 @@
+.venue-tools{display:flex;gap:16px;align-items:center;margin:-8px 0 13px}
+.text-action{display:inline-flex;gap:5px;align-items:center;border:0;background:none;padding:3px 0;color:#647c49;font-size:9px;font-weight:700;cursor:pointer}
+.text-action:hover{text-decoration:underline}
+.venue-edit-form{display:grid;grid-template-columns:1fr 1.2fr 1.4fr;gap:10px;align-items:end;margin-bottom:18px;padding:14px;background:#fffdf9;border:1px solid #e5e8df;border-radius:7px}
+.venue-edit-form label{display:flex;flex-direction:column;gap:6px;color:#6f796c;font-size:9px}
+.venue-edit-form input{height:36px;min-width:0;padding:0 9px;border:1px solid #e1e6da;border-radius:5px;background:#fff;font-size:10px;color:#344235}
+.edit-form-actions{grid-column:1/-1;justify-self:end;display:flex;align-items:center;gap:11px}
+.edit-form-actions .button{min-height:36px;font-size:9px}
+@media(max-width:760px){.venue-edit-form{grid-template-columns:1fr 1fr}.venue-edit-form label:nth-child(2),.venue-edit-form .form-row{grid-column:1/-1}.edit-form-actions{grid-column:1/-1}}
